@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.NovoProdutoConfeitaria">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/imagePerfil"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@drawable/perfil" />
+
+        <EditText
+            android:id="@+id/nome_confeitaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Nome Da Confeitaria"
+            android:inputType="text"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/categoria_confeitaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Categoria"
+            android:inputType="text"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/tempo_confeitaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Tempo Para Entrega (ex: 30 - 40 min)"
+            android:inputType="text"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/taxa_confeitaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Taxa De Entrega"
+            android:inputType="numberDecimal"
+            android:padding="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/endereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Endereço"
+                android:inputType="numberDecimal"
+                android:padding="16dp" />
+
+            <Button
+                android:id="@+id/btn_Localizacao_Confeitaria"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_location_on_black_24dp"
+                android:backgroundTint="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#D179AF"
+            android:onClick="ValidarDadosConfeitaria"
+            android:text="Salvar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

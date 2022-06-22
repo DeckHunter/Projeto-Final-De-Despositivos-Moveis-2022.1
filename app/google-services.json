@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1077073582169",
+    "project_id": "mundo-do-confeiteiro",
+    "storage_bucket": "mundo-do-confeiteiro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077073582169:android:64f76e94651c40a8637948",
+        "android_client_info": {
+          "package_name": "com.example.deckdeveloper.mundodoconfeiteiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077073582169-9j9l472aclgiedfti975p55pb34a7l7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deckdeveloper.mundodoconfeiteiro",
+            "certificate_hash": "6517f344b9a4cdeb7e02876bd39fa77af04302c9"
+          }
+        },
+        {
+          "client_id": "1077073582169-529pbfeeu0m4srkb4jk38a10ficpdrab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHKtWFVJATa8n1XwngavJx25tUQU4t7b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077073582169-529pbfeeu0m4srkb4jk38a10ficpdrab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
